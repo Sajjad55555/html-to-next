@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 function Footer(){
     return (
         <div>
-            <h1>
+           
             <section className="footer">
         <hr/>
         <h4>About Us</h4>
@@ -16,10 +18,10 @@ function Footer(){
             <i className="fab fa-twitter"></i>
             <i className="fab fa-linkedin"></i>
         </div>
-        <p>Made with <i className="fas fa-heart"></i> by <a href="#">Sajjad Developer</a></p>
-        <p>Copyright © 2021 <a href="index.html">Xplore Skill</a>. All Rights Reserved</p>
+        <p>Made with <i className="fas fa-heart"></i> by <Link href="/">Sajjad Haider Developer</Link></p>
+        <p>Copyright © 2023 <Link href="/">Xplore Skill</Link>. All Rights Reserved</p>
     </section>
-            </h1>
+           
         </div>
     )
 }

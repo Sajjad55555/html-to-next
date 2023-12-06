@@ -1,5 +1,5 @@
 function Input(props:any){
     return (
-        <input type="email" placeholder={props.title} required/>
+        <input type={props.type} placeholder={props.title} required/>
     )}
 export default Input;

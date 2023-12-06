@@ -17,8 +17,8 @@ export default function Navbar(){
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/courses">Course</Link></li>
                     <li><Link href="/blog">Blog</Link></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/contact">Contact</Link></li>
                 </ul>
             </div>
             {/* <i className="fa fa-bars" onclick="showMenu()"></i> */}
